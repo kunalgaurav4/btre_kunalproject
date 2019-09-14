@@ -41,7 +41,7 @@
           <div class="row">
             <div class="col-md-9">
               <!-- Home Main Image -->
-              <img src="{{listing.photo_main.url }}" alt="" class="img-main img-fluid mb-3">
+              <img src="{{ listing.photo_main.url }}" alt="" class="img-main img-fluid mb-3">
 
               
               
@@ -77,18 +77,18 @@
                         {% endif %}
                         {% if listing.photo_5 %}
                         <div class="col-md-2">
-                            <a href="{{ listing.photo_5.url }}" data-lightbox="home-images">
-                            <img src="{{ listing.photo_5.url }}" alt="" class="img-fluid">
-                             </a>
-                            </div>
+                        <a href="{{ listing.photo_5.url }}" data-lightbox="home-images">
+                        <img src="{{ listing.photo_5.url }}" alt="" class="img-fluid">
+                        </a>
+                        </div>
                             {% endif %}
                         {% if listing.photo_6 %}
                         <div class="col-md-2">
-                                    <a href="{{ listing.photo_6.url }}" data-lightbox="home-images">
-                                    <img src="{{ listing.photo_6.url }}" alt="" class="img-fluid">
-                                    </a>
-                                </div>
-                                {% endif %}
+                        <a href="{{ listing.photo_6.url }}" data-lightbox="home-images">
+                        <img src="{{ listing.photo_6.url }}" alt="" class="img-fluid">
+                        </a>
+                        </div>
+                        {% endif %}
                                 
               </div>
               <!-- Fields -->
